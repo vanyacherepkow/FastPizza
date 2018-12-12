@@ -1,0 +1,2 @@
+          <h2 scope="row" class="pizza_nazv_blud" href="<?=Yii::$app->urlManager->createUrl(['/site/pizza_page'])?>" ><?=$val->Naim_blud ;?></h2>
+<?=Html::a($val->Naim_blud , ['site_pizza_page', 'class'=>'pizza_nazv_blud']); ?>
